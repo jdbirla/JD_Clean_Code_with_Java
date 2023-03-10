@@ -55,3 +55,17 @@
 #### Substitute Algorithm
   - Problem: So you want to replace an existing algorithm with a new one?
   - Solution: Replace the body of the method that implements the algorithm with a new algorithm.
+
+### Moving Features between Objects
+- Even if you have distributed functionality among different classes in a less-than-perfect way, there’s still hope.
+- These refactoring techniques show how to safely move functionality between classes, create new classes, and hide implementation details from public access.
+### Organizing Data
+- These refactoring techniques help with data handling, replacing primitives with rich class functionality.
+- Another important result is untangling of class associations, which makes classes more portable and reusable.
+
+### Simplifying Conditional Expressions
+- Conditionals tend to get more and more complicated in their logic over time, and there are yet more techniques to combat this as well.
+### Simplifying Method Calls
+- These techniques make method calls simpler and easier to understand. This, in turn, simplifies the interfaces for interaction between classes.
+### Dealing with Generalization
+- Abstraction has its own group of refactoring techniques, primarily associated with moving functionality along the class inheritance hierarchy, creating new classes and interfaces, and replacing inheritance with delegation and vice versa.
